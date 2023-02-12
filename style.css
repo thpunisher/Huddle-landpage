@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Open+Sans&family=Outfit:wght@400;700&family=Poppins:wght@100;300;500;600&family=Teko&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(images/bg-desktop.svg);
+    background-color: hsl(257, 40%, 49%);
+    font-family: 'Open Sans', sans-serif;;
+}
+
+.but{
+    background-color: white;
+    border: none;
+    height: 40px;
+    width: 150px;
+    border-radius: 30px;
+    color: hsl(257, 40%, 49%);
+    box-shadow: rgb(78, 78, 78) 2.95px 4.95px 10.6px;
+    cursor: pointer;
+}
+
+.but:hover{
+    background-color: hsl(300, 69%, 71%);
+    color: white;
+}
+
+h1{
+    font-family: "Poppins";
+    font-weight: 700;
+    color: white;
+}
+
+.paragraph{
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.logo{
+    position: relative;
+    width: 200px;
+    top: 30px;
+    left: 30px;
+}
+
+.container{
+    display: flex;
+
+}
+.mockup{
+    width: 550px;
+    float: left;
+    margin: 50px;
+    margin-left: 150px;
+}
+
+.text{
+    width: 400px;
+    margin: 50px;
+    margin-left: 20px;
+}
+
+.social{
+    display: inline;
+    margin-left: 1100px;
+}
+ion-icon{
+    font-size: 25px;
+    padding: 5px;
+    margin: 5px;
+    margin-left: 5px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 100%;
+    cursor: pointer;
+}
+ion-icon:hover{
+    color: hsl(300, 69%, 71%);;
+    border-color: hsl(300, 69%, 71%);;
+    
+}
+footer{
+    display: block;
+}
