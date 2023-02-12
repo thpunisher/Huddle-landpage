@@ -87,7 +87,7 @@ footer{
     display: block;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 600px) {
     body {
       background-image: url(images/bg-mobile.svg);
     }
