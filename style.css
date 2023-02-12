@@ -86,3 +86,30 @@ ion-icon:hover{
 footer{
     display: block;
 }
+
+@media only screen and (max-width: 375px) {
+    body {
+      background-image: url(images/bg-mobile.svg);
+    }
+    .logo{
+        width: 100px;
+    }
+    .container{
+        display: block;
+        text-align: center;
+        align-items: center;
+    }
+    .mockup{
+        width: 300px;
+        height: 200px;
+        margin-left: 55px;
+    }
+
+    .social{
+        margin-left: 150px;
+    }
+    footer{
+        margin-left: 50px;
+
+    }
+  }
